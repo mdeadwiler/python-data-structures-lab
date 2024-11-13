@@ -6,10 +6,9 @@
 
 def manage_students():
     # your code here
-   
-        names = ['Petey', 'Caleb', 'Tommy']
-        first_student = names[1]
-        last_student = names[-1]
+names = ['Petey', 'Caleb', 'Tommy']
+    first_student = names[1]
+    last_student = names[-1]
         return first_student, last_student
 
 # Call the function and print the result
@@ -31,7 +30,7 @@ def combine_foods():
     meal = ' '
 
     for food in foods:
-          meal += ' ' + food
+        meal += ' ' + food
     
     return meal
 
@@ -63,12 +62,10 @@ print('Exercise 3:', slice_foods())
 # Create a dictionary named home_town containing the keys of city, state, and population.
 # Using the home_town dictionary, assign to a variable named home_town_message a string with this format: "I was born in <city>, <state> - population of <population>"
 home_town = { 'city': 'London',
-                 'state': 'UK',
-                  'population': '7million' }
+            'state': 'UK',
+            'population': '7million' }
 def hometown_info():
-    # your code here
-    
-    home_town_message = (f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}")
+home_town_message = (f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}")
     return home_town_message
 # Call the function and print the result
 print('Exercise 4:', hometown_info())
@@ -83,9 +80,9 @@ print('Exercise 4:', hometown_info())
 
 def list_home_town_items():
     # your code here
-    home_town_items = []
+home_town_items = []
     for key, val in home_town.items():
-         home_town_items.append((f"{key} = {val}"))
+    home_town_items.append((f"{key} = {val}"))
 
     return home_town_items
 
